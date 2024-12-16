@@ -43,6 +43,8 @@ while(True):
                     print("You win 🏅")
                 elif sum(player) == sum(computer):
                     print("Draw 🙂")
+                elif sum(computer) >  21:
+                    print("You win 🏅")
                 else:
                     print("You loose 😭")
                 break
